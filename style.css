@@ -971,18 +971,21 @@ section:nth-child(odd) .animate.scroll,
 .home {
     min-height: 100vh;
     display: flex;
+    height: 130vh;
     flex-direction: column;
     justify-content: center;
 }
 .home-img{
     margin-top: 150px;
-    width: 350px !important;
+}
+.btn-box a{
+    text-align: center !important;
+    margin: auto;
 }
 }
-@media (max-width: 400px) {
-    
+@media (max-width: 450px) {
 .home-img{
-    margin-top: 90px;
+    margin-top: 150px;
     width: 300px !important;
 }
 }
