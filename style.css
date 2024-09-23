@@ -976,5 +976,13 @@ section:nth-child(odd) .animate.scroll,
 }
 .home-img{
     margin-top: 150px;
+    width: 350px !important;
+}
+}
+@media (max-width: 400px) {
+    
+.home-img{
+    margin-top: 90px;
+    width: 300px !important;
 }
 }
